@@ -1,0 +1,168 @@
+.div0 {
+    width: 350px;
+    height: 200px;
+    background-color:#F6F1F1;
+    border-radius: 20px 50px 50px 0;
+    right: 200px;
+
+}
+
+/* .div0 :nth-child(1){display: flex; 
+
+align-items: center;} */
+.div1 {
+    width: 350px;
+    height: 190px;
+    
+    background-color: #19A7CE;
+    border-radius: 50px 0px 20px 50px;
+
+}
+
+
+
+
+
+.section0,
+.section1,
+.section2 {
+    display: flex;
+
+    justify-content: center;
+
+
+
+}
+
+
+
+
+
+
+#crosal {
+
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.crosal {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    padding: 20px;
+    box-shadow: 6px 6px 10px 1px rgba(0, 0, 0, 0.15), -6px -6px 10px 1px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+
+.inner {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px 1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px 1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+}
+
+
+.circle0 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    /* animation: anim duration timing-function delay infinite direction fill-mode;
+    animation: anim 20s linear forwards; */
+}
+
+.circle0 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim 10s infinite linear forwards;
+}
+
+.circle1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 460;
+    animation: anim 10s infinite linear forwards;
+}
+
+.circle2 {
+    color: chartreuse;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 470;
+    animation: anim 10s infinite linear forwards;
+}
+
+.circle3 {
+    color: chartreuse;
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 445;
+    animation: anim 10s infinite linear forwards;
+}
+
+.circle4 {
+
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim 10s infinite linear forwards;
+}
+
+.circle5 {
+
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 480;
+    animation: anim 10s infinite linear forwards;
+}
+
+
+@keyframes anim {
+    100% {
+        stroke-dasharray: 860;
+    }
+}
+
+svg {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+}
+
+
+
+
+#number {
+    font-weight: 600;
+    font-size: 30px;
+    color: #555;
+}
