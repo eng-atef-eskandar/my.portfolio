@@ -1,0 +1,5 @@
+# 
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://eng-atef-eskandar.github.io/my.portfolio/sitemap.xml
